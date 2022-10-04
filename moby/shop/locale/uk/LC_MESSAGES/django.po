@@ -1,0 +1,1237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-28 13:13+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\shop\admin.py:23 .\shop\admin.py:110
+msgid "Поиск по наименованию товара"
+msgstr "Пошук за найменуванням товару"
+
+#: .\shop\admin.py:64
+msgid "Поиск по имени категории"
+msgstr "Пошук за назвою категорії"
+
+#: .\shop\admin.py:82 .\shop\admin.py:147 .\shop\models.py:286
+msgid "Покупатель"
+msgstr "Покупець"
+
+#: .\shop\admin.py:86
+msgid "Да"
+msgstr "Так"
+
+#: .\shop\admin.py:86
+msgid "Нет"
+msgstr "Ні"
+
+#: .\shop\admin.py:114
+msgid "Сумма"
+msgstr "Сума"
+
+#: .\shop\admin.py:122
+msgid "Поиск по наименованию товара и дате прихода"
+msgstr "Пошук за найменуванням товару та датою"
+
+#: .\shop\admin.py:139
+msgid "Поиск по дате продажи"
+msgstr "Пошук за датою продажу"
+
+#: .\shop\admin.py:143
+msgid "Проданный товар"
+msgstr "Проданий товар"
+
+#: .\shop\admin.py:172
+msgid "Поиск по дате заказа, нику, имени и фамилии пользователя"
+msgstr "Пошук за датою заказу, ніку, імені та фамілії користувача"
+
+#: .\shop\admin.py:184
+msgid "Поиск по дате заказа и наименованию товара"
+msgstr "Пошук за датою заказу та назві товару"
+
+#: .\shop\admin.py:188
+msgid "Порядковый номер заказа"
+msgstr "Порядковий номер заказу"
+
+#: .\shop\admin.py:196
+msgid "Поиск по наименованию продукта, автору отзыва"
+msgstr "Пошук за назвою продукту, автору відгука"
+
+#: .\shop\admin.py:200 .\shop\models.py:235
+msgid "Автор отзыва"
+msgstr "Автор відгука"
+
+#: .\shop\admin.py:204
+msgid "Оцениваемый товар"
+msgstr "Товар, що оцінюється"
+
+#: .\shop\admin.py:213
+msgid "Поиск по дате отзыва, наименованию товара, юзернейму автора"
+msgstr "Пошук за датою відгука, найменуванню товара, юзернуйму автора"
+
+#: .\shop\admin.py:221
+msgid "Поиск по наименованию предприятия"
+msgstr "Пошук за назвою товара"
+
+#: .\shop\forms.py:70 .\shop\models.py:280
+msgid "Имя"
+msgstr "Ім'я"
+
+#: .\shop\forms.py:71 .\shop\models.py:281
+msgid "Почта"
+msgstr "Пошта"
+
+#: .\shop\forms.py:72 .\shop\models.py:119 .\shop\models.py:282
+msgid "Телефон"
+msgstr ""
+
+#: .\shop\forms.py:73 .\shop\models.py:283
+msgid "Адресс"
+msgstr "Адреса"
+
+#: .\shop\forms.py:75
+msgid "Область"
+msgstr ""
+
+#: .\shop\forms.py:76 .\shop\models.py:344
+msgid "Город"
+msgstr "Місто"
+
+#: .\shop\forms.py:77
+msgid "Отделение"
+msgstr "Відділення"
+
+#: .\shop\forms.py:85 .\shop\models.py:107
+msgid "Бренд"
+msgstr ""
+
+#: .\shop\forms.py:90
+msgid "От"
+msgstr "Від"
+
+#: .\shop\forms.py:93
+msgid "До"
+msgstr ""
+
+#: .\shop\models.py:13 .\shop\models.py:23 .\shop\views.py:354
+msgid "Общая категория"
+msgstr "Загальна категорія"
+
+#: .\shop\models.py:14
+msgid "Иконка"
+msgstr "Іконка"
+
+#: .\shop\models.py:24
+msgid "Общие категории"
+msgstr "Загальна категорія"
+
+#: .\shop\models.py:32
+msgid "Название категории"
+msgstr "Назва категорії"
+
+#: .\shop\models.py:44 .\shop\models.py:138
+msgid "Категория"
+msgstr "Категорія товару"
+
+#: .\shop\models.py:45
+msgid "Категории"
+msgstr "Категорії"
+
+#: .\shop\models.py:95
+msgid "Характеристики категории"
+msgstr "Характеристика категорії"
+
+#: .\shop\models.py:96
+msgid "Характеристики категорий"
+msgstr "Характеристики категорії"
+
+#: .\shop\models.py:100 .\shop\models.py:136
+msgid "Наименование бренда"
+msgstr "Назва бренду"
+
+#: .\shop\models.py:108
+msgid "Бренды"
+msgstr "Бренди"
+
+#: .\shop\models.py:112
+msgid "Наименование поставщика"
+msgstr "Назва постачальника"
+
+#: .\shop\models.py:113
+msgid "ИНН"
+msgstr "ІНН"
+
+#: .\shop\models.py:114
+msgid "Номер свидетельства НДС"
+msgstr "Номер свідоцства ПДВ"
+
+#: .\shop\models.py:115
+msgid "ЕГРПОУ"
+msgstr "ЄГРПОУ"
+
+#: .\shop\models.py:116
+msgid "Банк"
+msgstr ""
+
+#: .\shop\models.py:117
+msgid "МФО"
+msgstr ""
+
+#: .\shop\models.py:118
+msgid "Расчетный счет"
+msgstr "Розрахунковий рахунок"
+
+#: .\shop\models.py:120
+msgid "Электронный адрес"
+msgstr "Електронна адреса"
+
+#: .\shop\models.py:121
+msgid "Контактное лицо"
+msgstr "Контактна особа"
+
+#: .\shop\models.py:122
+msgid "Дата внесения в базу"
+msgstr "Дата внесення до бази"
+
+#: .\shop\models.py:128 .\shop\models.py:141 .\shop\models.py:267
+#: .\shop\models.py:360
+msgid "Поставщик"
+msgstr "Постачальник"
+
+#: .\shop\models.py:129
+msgid "Поставщики"
+msgstr "Постачальники"
+
+#: .\shop\models.py:133 .\shop\models.py:264
+#: .\shop\templates\shop\account.html:25
+msgid "Наименование продукта"
+msgstr "Назва продукту"
+
+#: .\shop\models.py:134
+msgid "Модель"
+msgstr ""
+
+#: .\shop\models.py:137
+msgid "Описание"
+msgstr "Опис"
+
+#: .\shop\models.py:139
+msgid "Артикул"
+msgstr ""
+
+#: .\shop\models.py:140 .\shop\models.py:359
+#: .\shop\templates\shop\account.html:28 .\shop\templates\shop\category.html:35
+#: .\shop\templates\shop\samples\cart_sample.html:30
+#: .\shop\templates\shop\samples\right_bar.html:31
+msgid "Цена"
+msgstr "Ціна"
+
+#: .\shop\models.py:142
+msgid "Продан"
+msgstr "Проданий"
+
+#: .\shop\models.py:143
+msgid "Дополнительная информация"
+msgstr "Додаткова інформація"
+
+#: .\shop\models.py:144
+msgid "Дата последнего посещения"
+msgstr "Дата останнього відвідування"
+
+#: .\shop\models.py:145
+msgid "Количество просмотров"
+msgstr "Кількість переглядів"
+
+#: .\shop\models.py:154 .\shop\models.py:356
+msgid "Продукт"
+msgstr ""
+
+#: .\shop\models.py:155
+msgid "Продукты"
+msgstr "Продукти"
+
+#: .\shop\models.py:205
+msgid "Характеристики продукта"
+msgstr ""
+
+#: .\shop\models.py:206
+msgid "Характеристики продуктов"
+msgstr "Характеристики продуктів"
+
+#: .\shop\models.py:215
+msgid "Изображение 1"
+msgstr "Зображення 1"
+
+#: .\shop\models.py:216
+msgid "Изображение 2"
+msgstr "Зображення 2"
+
+#: .\shop\models.py:217
+msgid "Изображение 3"
+msgstr "Зображення 3"
+
+#: .\shop\models.py:218
+msgid "Изображение 4"
+msgstr "Зображення 4"
+
+#: .\shop\models.py:219
+msgid "Изображение 5"
+msgstr "Зображення 5"
+
+#: .\shop\models.py:225
+msgid "Изображение товара"
+msgstr "Зображення товару"
+
+#: .\shop\models.py:226
+msgid "Изображения товара"
+msgstr "Зображення товару"
+
+#: .\shop\models.py:231
+msgid "Отзыв на продукт"
+msgstr "Відгук на продукт"
+
+#: .\shop\models.py:232
+msgid "Оценка"
+msgstr "Оцінка"
+
+#: .\shop\models.py:233
+msgid "Текст отзыва"
+msgstr "Текст відгука"
+
+#: .\shop\models.py:234
+msgid "Дата создания"
+msgstr "Дата створення"
+
+#: .\shop\models.py:244 .\shop\models.py:249
+msgid "Отзыв"
+msgstr "Відгук"
+
+#: .\shop\models.py:245 .\shop\templates\shop\product.html:31
+msgid "Отзывы"
+msgstr "Відгуки"
+
+#: .\shop\models.py:250 .\shop\models.py:259
+msgid "Лайк"
+msgstr ""
+
+#: .\shop\models.py:251
+msgid "Дизлайк"
+msgstr ""
+
+#: .\shop\models.py:253
+msgid "Автор лайка"
+msgstr "Автор лайку"
+
+#: .\shop\models.py:260
+msgid "Лайки"
+msgstr ""
+
+#: .\shop\models.py:265 .\shop\models.py:323 .\shop\models.py:358
+#: .\shop\templates\shop\samples\cart_sample.html:31
+msgid "Количество"
+msgstr "Кількість"
+
+#: .\shop\models.py:266
+msgid "Входящая цена"
+msgstr "Вхідна ціна"
+
+#: .\shop\models.py:268
+msgid "Дата поступления"
+msgstr "Дата надходження"
+
+#: .\shop\models.py:274 .\shop\models.py:357
+msgid "Приход"
+msgstr "Надходження"
+
+#: .\shop\models.py:275
+msgid "Приходы"
+msgstr "Надходження"
+
+#: .\shop\models.py:279
+msgid "Пользователь"
+msgstr "Користувач"
+
+#: .\shop\models.py:287
+msgid "Покупатели"
+msgstr "Покупці"
+
+#: .\shop\models.py:294 .\shop\models.py:299 .\shop\models.py:322
+#: .\shop\models.py:341
+msgid "Заказ"
+msgstr "Замовлення"
+
+#: .\shop\models.py:295 .\shop\templates\shop\account.html:20
+msgid "Дата заказа"
+msgstr "Дата замовлення"
+
+#: .\shop\models.py:296
+msgid "Выполнение заказа"
+msgstr "Виконання замовлення"
+
+#: .\shop\models.py:300
+msgid "Заказы"
+msgstr "Замовлення"
+
+#: .\shop\models.py:306
+msgid "Общая сумма"
+msgstr "Загальна сума"
+
+#: .\shop\models.py:313
+msgid "Общее количество"
+msgstr "Загальна кількість"
+
+#: .\shop\models.py:321 .\shop\templates\shop\samples\cart_sample.html:29
+msgid "Товар"
+msgstr ""
+
+#: .\shop\models.py:324
+msgid "Дата добавления"
+msgstr "Дата додавання"
+
+#: .\shop\models.py:327
+msgid "Заказанный товар"
+msgstr "Заказаний товар"
+
+#: .\shop\models.py:328
+msgid "Заказанные товары"
+msgstr "Замовлені товари"
+
+#: .\shop\models.py:334
+msgid "Сумма заказа"
+msgstr ""
+
+#: .\shop\models.py:342 .\shop\templates\shop\account.html:21
+msgid "Дата продажи"
+msgstr "Дата продажу"
+
+#: .\shop\models.py:343
+msgid "Регион"
+msgstr "Регіон"
+
+#: .\shop\models.py:345
+msgid "Номер отделения"
+msgstr "Номер відділення"
+
+#: .\shop\models.py:351
+#, fuzzy
+#| msgid "Продажи"
+msgid "Продажа"
+msgstr "Продажі"
+
+#: .\shop\models.py:352
+msgid "Продажи"
+msgstr "Продажі"
+
+#: .\shop\models.py:366
+msgid "Склад"
+msgstr ""
+
+#: .\shop\models.py:367
+msgid "Склады"
+msgstr "Склади"
+
+#: .\shop\templates\shop\account.html:11
+msgid "Подтвердить"
+msgstr "Підтвердити"
+
+#: .\shop\templates\shop\account.html:12
+msgid "Сменить пароль"
+msgstr "Змінити пароль"
+
+#: .\shop\templates\shop\account.html:15
+msgid "Архив покупок"
+msgstr "Архів покупок"
+
+#: .\shop\templates\shop\account.html:16
+msgid "(все стоимости приведены в гривне)"
+msgstr "(всі вартості приведені в гривні)"
+
+#: .\shop\templates\shop\account.html:27 .\shop\templates\shop\account.html:33
+#: .\shop\templates\shop\samples\cart_sample.html:19
+msgid "шт"
+msgstr ""
+
+#: .\shop\templates\shop\account.html:29
+msgid "Всего"
+msgstr "Всього"
+
+#: .\shop\templates\shop\account.html:34
+#: .\shop\templates\shop\samples\cart_sample.html:32
+msgid "Итого"
+msgstr "Загалом"
+
+#: .\shop\templates\shop\base.html:77
+msgid "Поиск..."
+msgstr "Пошук..."
+
+#: .\shop\templates\shop\category.html:28
+#: .\shop\templates\shop\samples\right_bar.html:27
+msgid "Фильтр"
+msgstr "Фільтр"
+
+#: .\shop\templates\shop\category.html:39
+#: .\shop\templates\shop\samples\right_bar.html:33
+msgid "Применить"
+msgstr "Задіяти"
+
+#: .\shop\templates\shop\category.html:40
+msgid "Закрыть"
+msgstr "Закрити"
+
+#: .\shop\templates\shop\category.html:46
+#: .\shop\templates\shop\samples\right_bar.html:34
+msgid "Сбросить"
+msgstr "Скинути"
+
+#: .\shop\templates\shop\checkout.html:14
+msgid "Оплатить"
+msgstr "Оплатити"
+
+#: .\shop\templates\shop\checkout.html:18
+msgid "Опции оплаты, PayPall"
+msgstr "Опції оплати"
+
+#: .\shop\templates\shop\other\about.html:10
+#: .\shop\templates\shop\other\for_partners.html:10
+#: .\shop\templates\shop\other\return_products.html:10
+#: .\shop\templates\shop\samples\base_popup_menu.html:48
+#: .\shop\templates\shop\samples\right_bar_small.html:6 .\shop\views.py:393
+msgid "О нас"
+msgstr "Про нас"
+
+#: .\shop\templates\shop\other\about.html:11
+#: .\shop\templates\shop\other\delivery.html:11
+#: .\shop\templates\shop\other\for_partners.html:11
+#: .\shop\templates\shop\other\return_products.html:11
+msgid "Маленькие мечты и грандиозные планы"
+msgstr "Маленькі мрії та грандіозні плани"
+
+#: .\shop\templates\shop\other\about.html:12
+#: .\shop\templates\shop\other\for_partners.html:12
+#: .\shop\templates\shop\other\return_products.html:12
+#: .\shop\templates\shop\other\service_centers.html:11
+msgid ""
+"Moby – самый большой онлайн-ритейлер в стране. С 2005 года мы воплощаем "
+"маленькие мечты и грандиозные планы миллионов людей. У нас можно найти "
+"буквально все. Мы продаем по справедливой цене и предоставляем гарантию, так "
+"как считаем, что онлайн-шопинг должен быть максимально удобным и безопасным. "
+"И каждый раз, когда кто-то нажимает «Купить», мы понимаем, что делаем нужное "
+"дело."
+msgstr ""
+"Moby - самий великий онлайн-рітейлер в країні. З 2005 року ми втілюємо "
+"маленькі мрії і грандіозні плани мільйонів людей. У нас можливо знайти "
+"буквально все. Ми продаємо за справедливою ціною і надаємо гарантію, так як "
+"вважаємо, що онайн-шопінг повинен бути максимально зручним і безпечним. І "
+"кожен раз, коли хтось натискає «Купити», ми розуміємо, що робимо потрібну "
+"справу."
+
+#: .\shop\templates\shop\other\about.html:14
+#: .\shop\templates\shop\other\contacts.html:14
+#: .\shop\templates\shop\other\for_partners.html:14
+#: .\shop\templates\shop\other\help.html:14
+#: .\shop\templates\shop\other\return_products.html:14
+msgid "Наша цель — быть полезными"
+msgstr "Наша мета - бути корисним"
+
+#: .\shop\templates\shop\other\about.html:15
+#: .\shop\templates\shop\other\for_partners.html:15
+#: .\shop\templates\shop\other\help.html:15
+#: .\shop\templates\shop\other\return_products.html:15
+msgid ""
+"Мы верим, что вещи существуют для того, чтобы делать жизнь проще, приятнее и "
+"добрее. Поэтому и поиск той самой вещи должен быть быстрым, удобным и "
+"приятным. Мы не просто продаем бытовую технику, электронику, украшения или "
+"вино. Мы помогаем найти именно то, что нужно, в одном месте и без лишних "
+"волнений, чтобы вы не тратили жизнь на поиски, а просто жили счастливо. MOBY "
+"— это универсальный ответ на любой запрос, начало поиска и его конечная "
+"остановка, настоящий помощник. Мы навсегда избавляем своих покупателей от "
+"неприятных компромиссов, исполняем желания и позволяем мечтать смелее. "
+"Благодаря разумному поиску и честному сервису мы делаем жизнь наших клиентов "
+"немножко лучше прямо сейчас."
+msgstr ""
+"Ми віримо, що речі існують для того, щоб робити життя простіше, приємніше і "
+"добріше. Тому й пошук тієї самої речі повинен бути швидким, зручним і "
+"приємним. Ми не просто продаємо побутову техніку, електроніку, прикраси чи "
+"вино. Ми допомагаємо знайти саме те, що потрібно, в одному місці і без "
+"зайвих турбот, щоб ви не гаяли життя на пошуки, а просто жили щасливо. MOBY "
+"- це універсальна відповідь на будь-який запит, початок пошука і його "
+"кінцева зупинка, справжній помічник. Ми назавжди позбавляємо своїх покупців "
+"від непроємних компромісів, виконуємо бажання і дозволяємо мріяти сміливіше. "
+"Дякуючи розумному пошуку і чесному сервісу ми робимо життя наших клієнтів "
+"трішечки краще прямо зараз."
+
+#: .\shop\templates\shop\other\about.html:16
+#: .\shop\templates\shop\other\for_partners.html:16
+#: .\shop\templates\shop\other\help.html:16
+#: .\shop\templates\shop\other\return_products.html:16
+msgid "Счастье начинается с простых вещей"
+msgstr "Щастя починається з простих речей"
+
+#: .\shop\templates\shop\other\about.html:17
+#: .\shop\templates\shop\other\for_partners.html:17
+#: .\shop\templates\shop\other\help.html:17
+#: .\shop\templates\shop\other\return_products.html:17
+msgid ""
+"И мы помогаем найти эти вещи: влюбленным подсказываем, чем удивить друг "
+"друга; спортивных мотивируем никогда не сдаваться и быстрее прогрессировать; "
+"хозяйственным даем возможность создать настоящий уют. Мы хотим, чтобы вы "
+"знали, что ищете, и могли аргументировать свой выбор. Для этого мы снимаем "
+"видеообзоры, пишем статьи и отслеживаем новинки."
+msgstr ""
+"І ми допомагаємо знайти ці речі: закоханим підказуємо, чим здивувати один "
+"одного; спортивних мотивуємо ніколи не здаватися і швидше прогресувати; "
+"господарникам даємо можливість створити справжній домашню атмосферу. Ми "
+"хочемо, щоб ви знали, що шукаєте, і могли аргументувати свій вибір. Для "
+"цього ми знімаємо відеоогляди, пишемо статті і відстежуємо новинки."
+
+#: .\shop\templates\shop\other\about.html:18
+#: .\shop\templates\shop\other\for_partners.html:18
+#: .\shop\templates\shop\other\help.html:18
+#: .\shop\templates\shop\other\return_products.html:18
+msgid "Чтобы мечты осуществлялись легко"
+msgstr "Щоб мрії збувались легко"
+
+#: .\shop\templates\shop\other\about.html:19
+#: .\shop\templates\shop\other\for_partners.html:19
+#: .\shop\templates\shop\other\help.html:19
+#: .\shop\templates\shop\other\return_products.html:19
+msgid ""
+"Мы открываем огромные офлайн-магазины, чтобы вы могли прийти, подержать в "
+"руках и протестировать понравившийся продукт. Мы хотим, чтобы у нас был "
+"лучший в мире сервис, поэтому обучаем сотрудников не только технической "
+"стороне работы, но и работе с клиентом. А если вам, наоборот, хочется "
+"поменьше общаться с людьми — для этого у нас есть почтоматы: сделали заказ, "
+"выбрали почтомат, забрали по дороге домой или на работу. Всё."
+msgstr ""
+"Ми відкриваємо величезні онлайн-магазини, щоб ви мали змогу прийти, "
+"потримати в руках і протестувати продукт, що сподобався. Ми хочемо, щоб у "
+"нас був кращий в світі сервіс, тому навчаємо співробітників на тельки "
+"технічній стороні праці, але й роботі з клієнтом. А якщо вам, навпаки, "
+"хочеться поменше спілкуватись з людьми - для цього у нас є поштомати: "
+"зробили замовлення, вибрали поштомат, забрали дорогою додому чи на роботу. "
+"Все."
+
+#: .\shop\templates\shop\other\contacts.html:10
+msgid "Консультации и заказ по телефонам"
+msgstr "Консультації і замовлення за телефонами"
+
+#: .\shop\templates\shop\other\contacts.html:11
+msgid ""
+"По техническим причинам линии поддержки не работают. Заказывайте онлайн."
+msgstr "З технічних причин лінії підтримки не працюють. Замовляйте онлайн."
+
+#: .\shop\templates\shop\other\contacts.html:12
+msgid ""
+"В связи с продлением комендантского часа в городах Одесса и Запорожье, "
+"фактический график работы магазина может быть отличаться от указанного."
+msgstr ""
+"В зв'язку з продовженням комендантського часу в містах Одеса та Запоріжжя, "
+"фактичний графік роботи магазину поже відрізнятися від вказаного."
+
+#: .\shop\templates\shop\other\credit.html:10
+msgid "Банки партнеры"
+msgstr "Банки партнери"
+
+#: .\shop\templates\shop\other\delivery.html:10 .\shop\views.py:429
+msgid "Доставка"
+msgstr "Доставка"
+
+#: .\shop\templates\shop\other\delivery.html:12
+msgid ""
+"Информацию о сроках и способах доставки, условия получения и хранения, можно "
+"найти здесь"
+msgstr ""
+"Інформацію про терміни і способи доставки, умови отримання і зберігання, "
+"можна знайти тут"
+
+#: .\shop\templates\shop\other\delivery.html:15
+msgid "Актуальная ситуация касательно оброботки заявок."
+msgstr "Актуальна ситуація щодо обробки замовлень."
+
+#: .\shop\templates\shop\other\delivery.html:16
+msgid "Доставка и возврат товаров из Европы EU"
+msgstr "Доставка і повернення товару із Європи EU"
+
+#: .\shop\templates\shop\other\delivery.html:17
+msgid "Электронная очередь в магазине или точке выдачи"
+msgstr "Електронна черга в магазині чи точці видачі"
+
+#: .\shop\templates\shop\other\delivery.html:18
+msgid "Как получить заказ в почтомате?"
+msgstr "Як отримати замовлення в поштоматі?"
+
+#: .\shop\templates\shop\other\delivery.html:19
+msgid "Как получить заказ в АЗК WOG?"
+msgstr "Як отримати замовлення в АЗК WOG?"
+
+#: .\shop\templates\shop\other\delivery.html:20
+msgid "Как действует доставка в точки выдачи MOBY?"
+msgstr "Як діє доставки в пункти видачі MOBY?"
+
+#: .\shop\templates\shop\other\help.html:10
+msgid "Пункты самовывоза и возврата"
+msgstr "Пункти самовивозу і повернення"
+
+#: .\shop\templates\shop\other\help.html:11
+msgid "Вернуть товар можно в сервисных отделах или в пунктах приема возвратов."
+msgstr ""
+"Повернути товар можливо в сервісних відділах чи пунктах приймання повернень."
+
+#: .\shop\templates\shop\other\help.html:12
+msgid ""
+"Пункты приема возвратов не имеют сервисных специалистов. Окончательное "
+"решение по возврату товара будет принято после осмотра товара специалистом "
+"сервиса."
+msgstr ""
+"Пункти приймання повернень не мають сервісних спеціалістів. Кінцеві рішення "
+"щодо поверння товару буде прийнято після огляду товара спеціалістом сервісу."
+
+#: .\shop\templates\shop\other\service_centers.html:10
+#: .\shop\templates\shop\samples\base_popup_menu.html:55
+#: .\shop\templates\shop\samples\right_bar_small.html:13 .\shop\views.py:456
+msgid "Сервисные центры"
+msgstr "Сервісні центри"
+
+#: .\shop\templates\shop\other\service_centers.html:13
+#: .\shop\templates\shop\other\service_centers.html:20
+msgid "Адреса и телефоны"
+msgstr "Адреси та телефони"
+
+#: .\shop\templates\shop\other\service_centers.html:14
+#: .\shop\templates\shop\other\service_centers.html:21
+msgid "Амати сервис"
+msgstr "Аматі сервіс"
+
+#: .\shop\templates\shop\other\service_centers.html:15
+#: .\shop\templates\shop\other\service_centers.html:22
+msgid "Бориспольская, 9"
+msgstr "Бориспільська, 9"
+
+#: .\shop\templates\shop\other\service_centers.html:16
+#: .\shop\templates\shop\other\service_centers.html:23
+msgid "корпус 57"
+msgstr ""
+
+#: .\shop\templates\shop\other\terms.html:10
+msgid "Пользовательское соглашение"
+msgstr "Користувацька згода"
+
+#: .\shop\templates\shop\other\terms.html:11
+msgid ""
+"Я (далее – «Я» и/или «Пользователь»), соглашаясь с условиями этого "
+"Пользовательского соглашения и используя сайт moby.com.ua (далее – «Сайт») и/"
+"или мобильное приложение MOBY (далее – «Мобильное приложение») и/или другие "
+"сервисы (далее вместе именуемые как «Онлайн-платформа MOBY» и/или «Онлайн-"
+"платформа»), при заказе, переписке, телефонном разговоре, оставлении отзывов "
+"и т. п. даю согласие на обработку и защиту своих персональных данных, как "
+"Пользователя, в объеме, порядке, в соответствии с целью обработки согласно "
+"Положению об обработке персональных данных, размещенному здесь: (Далее – "
+"«Положение» и/или «Положение об обработке и защите персональных данных»)."
+msgstr ""
+"Я (далі «Я» та/або «Користувач»), погоджуюсь з умовами цієї Користувацької "
+"угоди і використовую сайт moby.com.ua (далі – «Сайт») чи/або мобільний "
+"додаток MOBY (далі - «Мобільний додаток») чи/або «Онлайн- платформа»), при "
+"замовленні, листуванні, телефонній розмові, залишенню відгуків  і т.д. даю "
+"згоду на обробку і захист своїх персональних даних, як Користувача, в "
+"об'ємі, порядку, у відповідності з метою обробки згідно Положенню про "
+"обробку персональних даних, розміщених тут: (Далі - «Положення» чи/або "
+"«Положення про обробку і захисту персональних данних»)."
+
+#: .\shop\templates\shop\other\terms.html:12
+msgid "Персональные данные"
+msgstr "Персональна інформація"
+
+#: .\shop\templates\shop\other\terms.html:13
+msgid ""
+"В дополнение к Положению, во исполнение требований Закона Украины «О защите "
+"персональных данных» путем заполнения на Онлайн-платформе заявки для "
+"рассмотрения возможности покупки товара в кредит и нажатием кнопки «Заказ "
+"подтверждаю» даю согласие на обработку указанных в заявке моих персональных "
+"данных следующими лицами: АО «ПУМБ» (код ЕГРПОУ – 14282829), АО «ОТП "
+"БAНК» (код ЕГРПОУ– 21685166), АО «УКРСИББАНК» (код ЕГРПОУ– 09807750), ООО "
+"«ФК «ЦФР» (код ЕГРПОУ– 35725063), АО «АЛЬФА-БАНК» (код ЕГРПОУ– 23494714), АО "
+"КБ «ПРИВАТБАНК» (код ЕГРПОУ – 14360570), АО «УНИВЕРСАЛ БАНК» (код ЕГРПОУ – "
+"21133352) и другим финансовым учреждениям, предоставляющим возможность "
+"кредитования на Онлайн-платформе MOBY, с целью обеспечения реализации "
+"гражданско-правовых отношений, предоставления/получения и осуществления "
+"расчетов за приобретенные товары/услуги, в том числе путем кредитования. Не "
+"возражаю по поводу проверки перечисленными в данном Соглашении финансовыми "
+"учреждениями информации в любых бюро кредитных историй Украины с целью "
+"выяснения сведений, касающихся выполнения мною взятых на себя обязательств "
+"по договорам (в т.ч. кредитным), в случае наличия таких, тем самым понимая, "
+"что объем проверяемой информации может включать в себя информацию, "
+"касающуюся банковской тайны, и выяснение которой будет такой, которая будет "
+"полной и достаточной для понимания моего социального, имущественного "
+"положения, платежеспособности и несения возможной дальнейшей имущественной "
+"ответственности в случае ее необходимости."
+msgstr ""
+"В доповнення до Положення, для виконання вимог Закону України «Про захист "
+"персональних данних» шляхом заповнення на Онлайн-платформі заявки для "
+"розгляду можливості придбання товару в кредит і натисканням кнопки "
+"«Замовлення підтверджую» даю згоду на обробку вказаних в заявці моїх "
+"персональних даних наступним особам: АТ «ПУМБ» (код ЄДРПОУ - 14282829), АТ "
+"«ОТП БАНК» (код ЄДРПОУ - 21685166), АТ «УКРСИББАНК» (код ЄГРПОУ - 09807750), "
+"ТОВ «ФК «ЦФР» (код ЄГРПОУ - 35725063), АТ «АЛЬФА-БАНК» (код ЄГРПОУ - "
+"223494714), АТ КБ «ПРИВАТБАНК» (код ЄГРПОУ - 14360570), АТ «УНІВЕРСАЛ "
+"БАНК» (код ЄГРПОУ - 21133352) та іншим фінансовим установам, які надають "
+"можливість кредитування на Онлайн-платформі MOBY, з метою забезпечення "
+"реалізації цивільно-правових відносин, надання/отримання й втілення "
+"розрахунків за придбані товари/послуги, в тому числі шляхом кредитування. Не "
+"заперечую з приводу перевірки перерахованих в даній Угоді фінансовими "
+"установами інформації в будь-яких бюро кредитних історій України з метою "
+"з'ясування відомостей, що стосуються виконання мною взятих на себе "
+"зобов'язань по угодам (в т.ч. кредитним), у випадку наявності таких, тим "
+"самими розуміючи, що об'єм інформації, що перевіряється, для розуміння мого "
+"соціального, майнового стану, платіжної спроможності і несення можливої "
+"майбутньої майнової відповідальності у випадку її необхідності."
+
+#: .\shop\templates\shop\other\terms.html:14
+msgid ""
+"Я также согласен с тем, что владелец имеет право предоставлять доступ и "
+"передавать мои персональные данные третьим лицам без каких-либо "
+"дополнительных уведомлений, не изменяя при этом цель их обработки, "
+"определенную в Положении и настоящем Соглашении. В том числе, на проверку "
+"указанной Мной информации и не отрицаю передачу для возможного необходимого "
+"выяснения данной информации третьим лицам, под которыми понимаю: финансовые "
+"учреждения, коллекторские компании, операторы мобильной и почтовой связи, "
+"другие физические и/или юридические лица."
+msgstr ""
+"Я також згоден з тим, що власник має право надавати доступ та передавати мої "
+"персональні дані третім особам без будь-яких додаткових повідомлень, не "
+"змінюючи при цьому мету їх обробки, визначену в Положенні і даній Угоді. В "
+"тому числі, на перевірку вказаних Мною інформації і не заперечуючи передачу "
+"для можливого необхідного визначення данної інформації третіми особами, під "
+"якими розумію: фінансові установи, колекторські компанії, оператори "
+"мобільного та поштового зв'язку, інші фізичні та/або юридичні особи."
+
+#: .\shop\templates\shop\other\terms.html:15
+msgid ""
+"Соглашаюсь запрашивать и получать в бюро кредитных историй, включенных в "
+"Единый реестр бюро кредитных историй (далее – «Бюро»), данные и информацию в "
+"виде сводных показателей, сформированных на основе информации, содержащейся "
+"в моей кредитной истории и/или на основе информации, доступной из открытых "
+"источников, от третьих лиц, с использованием доступных Бюро моделей расчета, "
+"а также на использование указанной информации владельцем и/или третьими "
+"лицами для определения и предложения мне Владельцем в личном кабинете на "
+"Онлайн-платформе MOBY маркетинговых/специальных предложений (финансовых "
+"лимитов) для приобретения товаров и/или услуг."
+msgstr ""
+"Погоджуюсь запитувати та отримувати в бюро кредитних історій, включених в "
+"Единий реєстр бюро кредитних історій (далі - «Бюро»), дані та інформацію в "
+"вигляді узагальнених показників, сформованих на основі інформації, що "
+"міститься в моїй кредитній історій та/або на основі інформації, що доступна "
+"з відкритих джерел, від третіх осіб, з використанням доступних Бюро моделей "
+"розрахунку, а також на використання вказаної інформації власником та/або "
+"третіми особами для визначення і пропонування мені Власником в особистому "
+"кабінеті на Онлайн-платформі MOBY маркетингових/спеціальних пропозицій "
+"(фінансових лімітів) для придбання товарів та/або послуг."
+
+#: .\shop\templates\shop\other\terms.html:16
+msgid "Какую информацию мы собираем"
+msgstr "Яку інформацію ми збираємо"
+
+#: .\shop\templates\shop\other\terms.html:17
+msgid ""
+"На онлайн-платформе Moby, в случае когда вы делаете заказ, участвуете в "
+"акции, исследованиях или иным образом взаимодействуете с нами, мы собираем "
+"как личную информацию, так и общие данные."
+msgstr ""
+"На онлайн-платформі Moby, у випадку коли ви робите замовлення, берете участь "
+"в акції, дослідженнях чи іншим чином взаємодієте з нами, ми збираємо як "
+"приватну інформацію, так і загальні дані."
+
+#: .\shop\templates\shop\other\terms.html:18
+msgid ""
+"Личная информация касается отдельного пользователя и обрабатывается в "
+"порядке, в пределах, с целью, определенных в Положении. Мы не требуем "
+"регистрации или предоставления такой информации для просмотра нашей Онлайн-"
+"платформы и получения доступа к ее содержанию."
+msgstr ""
+"Загальна інформація стосується окремого користувача і оброблюється в "
+"порядку, в межах, з метою, визначених в Положенні. Ми не вимагаємо "
+"реєстрації чи надання такої інформації для перегляду нашої Онлайн-платформи "
+"і отрамання доступу до її змісту."
+
+#: .\shop\templates\shop\other\terms.html:19
+msgid ""
+"Для того чтобы сделать заказ товаров/услуг, участвовать в акциях, "
+"исследованиях или иным образом взаимодействовать с нами, вы должны "
+"внимательно ознакомиться с вашими правами и обязанностями по обработке "
+"персональных данных, указанных в ст. 8 Закона Украины «О защите персональных "
+"данных» и Положении, внимательно ознакомиться с настоящим Пользовательским "
+"соглашением и Положением, а также выразить свое полное согласие с их "
+"условиями."
+msgstr ""
+"Для того, щоб зробити замовлення товарів/послуг, брати участь в акціях, "
+"дослідженнях чи іншим чином взаємодіяти з нами, ви повинні уважно "
+"ознайомитись з вашими правами і обов'язками по обробці персональних даних, "
+"вказаних в ст. 8 Закона України «Про захист персональних даних» і Положенні, "
+"уважно ознайомитись з дійсною Користувацькою  згодою і Положенням, а також "
+"виразити свою повну згоду з їх умовами."
+
+#: .\shop\templates\shop\other\terms.html:20
+msgid ""
+"Если вы не согласны с каким-либо из условий настоящего Пользовательского "
+"соглашения и Положением об обработке и защите персональных данных, "
+"пожалуйста, не предоставляйте личную информацию (персональные данные)."
+msgstr ""
+"Якщо ви не згодні з будь-якою з умов дійсної Користувацької згоди і "
+"Положення про обробку і захист персональних даних, будь-ласка, не надавайте "
+"особисту інформацію (персональні дані)."
+
+#: .\shop\templates\shop\other\terms.html:21
+msgid "Почему мы обрабатываем персональные данные"
+msgstr "Чому ми оброблюємо персональні дані"
+
+#: .\shop\templates\shop\other\terms.html:22
+msgid ""
+"Термин «персональные данные» используется в значении, определенном Законом "
+"Украины «О защите персональных данных» и составляет совокупность сведений о "
+"пользовании, которые определяются в Положении."
+msgstr ""
+"Термін «персональні дані» використовується в значенні, визначеному Законом "
+"України «Про захист персональних даних» і складає сукупність відомостей про "
+"користування, які визначаються в Положенні."
+
+#: .\shop\templates\shop\product.html:23
+msgid "Товар ждет вашей оценки"
+msgstr "Товар чекає на вашу оцінку"
+
+#: .\shop\templates\shop\product.html:25
+msgid "код: "
+msgstr ""
+
+#: .\shop\templates\shop\product.html:29
+msgid "Все о товаре"
+msgstr "Все про товар"
+
+#: .\shop\templates\shop\product.html:30
+msgid "Характеристики"
+msgstr ""
+
+#: .\shop\templates\shop\product.html:32
+msgid "Фото"
+msgstr ""
+
+#: .\shop\templates\shop\product.html:42
+msgid "Товар отсутствует"
+msgstr "Товар відсутній"
+
+#: .\shop\templates\shop\product.html:44
+msgid "Есть в наличии"
+msgstr "Є в наявності"
+
+#: .\shop\templates\shop\product.html:47
+msgid "Товар добавлен в корзину"
+msgstr "Товар доданий до корзини"
+
+#: .\shop\templates\shop\product.html:52
+#: .\shop\templates\shop\samples\cart_sample.html:20
+#: .\shop\templates\shop\samples\cart_sample.html:40
+#: .\shop\templates\shop\samples\cart_sample.html:50
+msgid "грн"
+msgstr ""
+
+#: .\shop\templates\shop\product.html:55
+msgid "Купить"
+msgstr "Купити"
+
+#: .\shop\templates\shop\product.html:59
+msgid "Продавец:"
+msgstr "Продавець"
+
+#: .\shop\templates\shop\product.html:68
+#, fuzzy
+#| msgid ""
+#| "Оплата. Оплата при получении товара, Google Pay, Картой онлайн, "
+#| "Безналичными для юридических лиц, Оплатить онлайн социальной картой "
+msgid ""
+"Оплата. Оплата при получении товара, Google Pay, Картой онлайн, Безналичными "
+"для юридических лиц, Оплатить онлайн социальной картой «Пакунок малюка», "
+"Безналичными для физических лиц, Оплатить онлайн картой «єПідтримка», "
+"PrivatPay, Apple Pay, ,, ."
+msgstr ""
+"Оплата. Оплата при отриманні товару, Google Pay, Картой онлайн, "
+"Безготівковим для юридичних осіб, Оплатити онлайн соціальною карткою "
+"«Пакунок малюка», Безготівковим для фізичних осіб, Оплатити онлайн карткою "
+"«єПідтримка», PrivatPay, Apple Pay, ,, ."
+
+#: .\shop\templates\shop\product.html:93
+msgid "Оставьте свой отзыв об этом товаре"
+msgstr "Залиште свій відгук про цей товар"
+
+#: .\shop\templates\shop\product.html:117
+#: .\shop\templates\shop\samples\register_box.html:41
+msgid "Сохранить"
+msgstr "Зберегти"
+
+#: .\shop\templates\shop\product.html:121
+msgid "Авторизуйтесь, чтобы оставить отзыв о товаре"
+msgstr "Авторизуйтесь, щоб залишити відгук про товар"
+
+#: .\shop\templates\shop\register\login.html:4 .\shop\views.py:69
+msgid "Авторизация"
+msgstr "Реєстрація"
+
+#: .\shop\templates\shop\register\login.html:8
+msgid "Вход в панель администратора"
+msgstr "Вхід до панелі адміністратора"
+
+#: .\shop\templates\shop\register\password_reset_complete.html:4
+#: .\shop\views.py:123
+msgid "Сброс пароля"
+msgstr "Скидання паролю"
+
+#: .\shop\templates\shop\register\password_reset_complete.html:8
+msgid "Установка пароля"
+msgstr "Встановлення паролю"
+
+#: .\shop\templates\shop\register\password_reset_complete.html:9
+msgid "Ваш пароль задан. Вы можете "
+msgstr "Ваш пароль заданий. Ви можете"
+
+#: .\shop\templates\shop\register\password_reset_complete.html:9
+msgid "авторизоваться сейчас"
+msgstr "авторизуватися зараз"
+
+#: .\shop\templates\shop\register\password_reset_confirm.html:4
+#: .\shop\templates\shop\register\password_reset_confirm.html:8
+#: .\shop\templates\shop\register\password_reset_done.html:4
+#: .\shop\templates\shop\register\password_reset_done.html:8
+#: .\shop\templates\shop\register\password_reset_form.html:4
+msgid "Сброс Вашего пароля"
+msgstr "Скидання Вашого паролю"
+
+#: .\shop\templates\shop\register\password_reset_confirm.html:10
+msgid "Пожалуйста, введите Ваш новый пароль дважды:"
+msgstr "Будь-ласка, введіть Ваш новий пароль двічі:"
+
+#: .\shop\templates\shop\register\password_reset_confirm.html:14
+msgid "Изменить мой пароль"
+msgstr "Змінити мій пароль"
+
+#: .\shop\templates\shop\register\password_reset_done.html:9
+msgid "Мы отправили Вам электронное письмо с инструкцией для установки пароля."
+msgstr ""
+"Ми відправили Вам електроного листа з інструкцією для встановлення паролю."
+
+#: .\shop\templates\shop\register\password_reset_done.html:10
+msgid ""
+"Если Вы не получили письмо, пожалуйста, убедитесь, что ввели именно тот "
+"адрес электронной почты, который ввели при регистрации."
+msgstr ""
+"Якщо Ви не отримали електронного листа, будь-ласка, переконайтесь, що ввели "
+"саме ту адресу електронної пошти, яку ввели при реєстрації."
+
+#: .\shop\templates\shop\register\password_reset_email.html:3
+msgid "Кто-то запросил смену пароля для электронного адреса"
+msgstr "Хтось запросив зміну паролю для електронної адреси"
+
+#: .\shop\templates\shop\register\password_reset_email.html:3
+msgid "Следуйте ссылке ниже:"
+msgstr "Йдіть за посиланням нижче:"
+
+#: .\shop\templates\shop\register\password_reset_email.html:5
+msgid "Ваше имя, в случае, если Вы забыли: "
+msgstr "Ваше ім'я, у випадку, якщо Ви забули: "
+
+#: .\shop\templates\shop\register\password_reset_form.html:8
+msgid "Забыли пароль?"
+msgstr "Забули пароль?"
+
+#: .\shop\templates\shop\register\password_reset_form.html:9
+msgid "Введите Ваш электронный адресс для получения нового пароля."
+msgstr "Введіть Вашу електронну адресу для отримання нового пароля."
+
+#: .\shop\templates\shop\register\password_reset_form.html:12
+msgid "Отправить письмо"
+msgstr "Відправити листа"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:21
+#: .\shop\templates\shop\samples\register_box.html:10
+msgid "Вход"
+msgstr "Вхід"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:23
+#: .\shop\templates\shop\samples\register_box.html:31 .\shop\views.py:54
+msgid "Регистрация"
+msgstr "Реєстрація"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:25
+msgid "Авторизуйтесь для получения расширенных возможностей"
+msgstr "Авторизуйтесь для отримання розширених можливостей"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:33 .\shop\views.py:499
+msgid "Корзина"
+msgstr "Корзина"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:37
+#: .\shop\templates\shop\samples\right_bar.html:45
+msgid "Справочный центр"
+msgstr "Довідковий центр"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:41
+msgid "Язык"
+msgstr "Мова"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:47
+#: .\shop\templates\shop\samples\right_bar_small.html:5
+msgid "Информация о комании"
+msgstr "Інформація про компанію"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:49
+#: .\shop\templates\shop\samples\right_bar_small.html:7 .\shop\views.py:402
+msgid "Условия использования сайта"
+msgstr "Умови використання сайту"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:50
+#: .\shop\templates\shop\samples\right_bar_small.html:8 .\shop\views.py:411
+msgid "Контакты"
+msgstr "Контакти"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:51
+#: .\shop\templates\shop\samples\right_bar_small.html:9 .\shop\views.py:420
+msgid "Помощь"
+msgstr "Допомога"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:52
+#: .\shop\templates\shop\samples\right_bar_small.html:10
+msgid "Доставка и оплата"
+msgstr "Доставка та оплата"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:53
+#: .\shop\templates\shop\samples\right_bar_small.html:11 .\shop\views.py:438
+msgid "Кредит"
+msgstr "Кредит"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:54
+#: .\shop\templates\shop\samples\right_bar_small.html:12 .\shop\views.py:447
+msgid "Возврат товара"
+msgstr "Повернення товару"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:56
+#: .\shop\templates\shop\samples\right_bar_small.html:14 .\shop\views.py:465
+msgid "Партнерам"
+msgstr "Партнерам"
+
+#: .\shop\templates\shop\samples\base_popup_menu.html:58
+#: .\shop\templates\shop\samples\right_bar.html:61
+msgid "Мы в социальных сетях"
+msgstr "Ми в соціальних мережах"
+
+#: .\shop\templates\shop\samples\cart_sample.html:15
+msgid "Продолжить покупки"
+msgstr "Продовжити покупки"
+
+#: .\shop\templates\shop\samples\cart_sample.html:19
+msgid "Количество: "
+msgstr "Кількість: "
+
+#: .\shop\templates\shop\samples\cart_sample.html:20
+msgid "Всего: "
+msgstr "Всього: "
+
+#: .\shop\templates\shop\samples\cart_sample.html:22
+msgid "Подтвердить заказ"
+msgstr "Підтвердити замовлення"
+
+#: .\shop\templates\shop\samples\cart_sample.html:28
+msgid "Изображение"
+msgstr "Зображення"
+
+#: .\shop\templates\shop\samples\catalog-menu-popup.html:8
+#: .\shop\templates\shop\samples\catalog_menu.html:8
+msgid "КАТАЛОГ"
+msgstr ""
+
+#: .\shop\templates\shop\samples\register_box.html:23
+msgid "Зарегистрироваться"
+msgstr "Зареєструватися"
+
+#: .\shop\templates\shop\samples\register_box.html:24
+msgid "Напомнить пароль"
+msgstr "Нагадати пароль"
+
+#: .\shop\templates\shop\samples\register_box.html:43
+msgid "Я уже зарегистрирован"
+msgstr "Я вже зареєстрований"
+
+#: .\shop\templates\shop\samples\right_bar.html:50
+msgid "Точки выдачи"
+msgstr "Пункти видачі"
+
+#: .\shop\templates\shop\samples\right_bar.html:55
+msgid "Добро пожаловать!"
+msgstr "Раді вітати!"
+
+#: .\shop\templates\shop\samples\right_bar.html:56
+msgid "Войдите, чтобы получать рекомендации, персональные бонусы и скидки"
+msgstr "Ввійдіть, щоб отримати рекомендації, персональні бонуси та знижки"
+
+#: .\shop\templates\shop\samples\right_bar.html:57
+msgid "Войдите в личный кабинет"
+msgstr "Ввійдіть в особистий кабінет"
+
+#: .\shop\templates\shop\search_results.html:7
+msgid "Результаты поиска по запросу "
+msgstr "Результат пошуку за запитом"
+
+#: .\shop\utils.py:78
+msgid ""
+"К сожалению, в одной позиции из списка товаров произошли изменения. Пока Вы "
+"оформляли покупку, товар был приобретен другим покупателем. Приносим свои "
+"извинения."
+msgstr ""
+"Нажаль, в одній позиції зі списку товарів виникли зміни. Поки Ви оформлювали "
+"купівлю, товар був придбаний іншим покупцем. Приносимо свої вибачення."
+
+#: .\shop\views.py:116
+msgid "Смена пароля"
+msgstr "Зміна пароль"
+
+#: .\shop\views.py:133
+msgid "Пароль сброшен"
+msgstr "Пароль скинутий"
+
+#: .\shop\views.py:144
+msgid "Подтверждение сброса пароля"
+msgstr "Підтвердження скидування паролю"
+
+#: .\shop\views.py:154
+msgid "Сброс пароля выполнен"
+msgstr "Скидання паролю виконано"
+
+#: .\shop\views.py:176
+msgid "Не оплачен"
+msgstr "Не оплачений"
+
+#: .\shop\views.py:189
+msgid "Персональная информация"
+msgstr "Персональна інформація"
+
+#: .\shop\views.py:206
+msgid "Кабинет покупателя"
+msgstr "Кабінет покупця"
+
+#: .\shop\views.py:383
+msgid "Поиск"
+msgstr "Пошук"
+
+#: .\shop\views.py:576
+msgid "Оплата прошла успешно"
+msgstr "Оплата пройшла успішно"
+
+#~ msgid "Категория товара"
+#~ msgstr "Категорія товару"

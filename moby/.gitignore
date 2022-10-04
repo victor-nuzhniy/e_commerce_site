@@ -1,0 +1,6 @@
+moby/settings.py
+moby_cache/
+moby/shop/migrations/__pycache__/
+moby/shop/__pycache__/
+moby/media/
+moby/shop/templatetags/__pycache__/
