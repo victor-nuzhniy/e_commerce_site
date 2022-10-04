@@ -72,18 +72,6 @@ class ModLoginView(LoginView):
         user = form.get_user()
         login(self.request, user)
         response = HttpResponseRedirect(self.get_success_url())
-        # cookie_cart, items = json.loads(self.request.COOKIES.get('cart')), []
-        # if cookie_cart:
-        #     order, created = Order.objects.get_or_create(buyer=user.buyer, complete=False)
-        #     if not created:
-        #         items = OrderItem.objects.filter(order=order)
-        #         for item in items:
-        #             item.delete()
-        #     for item in cookie_cart.items():
-        #         OrderItem.objects.create(product=Product.objects.get(id=int(item[0][0])), order=order,
-        #                                  quantity=int(list(item[1].values())[0]))
-        # else:
-        #     response.set_cookie('flag', 1, max_age=1)
         return authorization_handler(self.request, response, user)
 
 
