@@ -16,26 +16,25 @@ class ProductImageInline(admin.TabularInline):
     exclude = ('id',)
 
 
-@admin.action(description='Copy item')
-def duplicate_query_sets(modeladmin, request, queryset, **kwargs):
-    for p in queryset:
-        p.pk = None
-        p.slug = '1'
-        for i, v in kwargs.items():
-            setattr(p, i, v)
-        p.save()
-
-
-@admin.action(description='Copy p and i item')
-def duplicate_query_sets_1(modeladmin, request, queryset, **kwargs):
-    for p in queryset:
-        p.pk = None
-        product = Product.objects.get(id=p.product.id+1)
-        p.product = product
-        for i, v in kwargs.items():
-            setattr(p, i, v)
-        p.save()
-
+# @admin.action(description='Copy item')
+# def duplicate_query_sets(modeladmin, request, queryset, **kwargs):
+#     for p in queryset:
+#         p.pk = None
+#         p.slug = '1'
+#         for i, v in kwargs.items():
+#             setattr(p, i, v)
+#         p.save()
+#
+#
+# @admin.action(description='Copy p and i item')
+# def duplicate_query_sets_1(modeladmin, request, queryset, **kwargs):
+#     for p in queryset:
+#         p.pk = None
+#         product = Product.objects.get(id=p.product.id+1)
+#         p.product = product
+#         for i, v in kwargs.items():
+#             setattr(p, i, v)
+#         p.save()
 
 
 class ProductAdmin(admin.ModelAdmin):
@@ -52,7 +51,7 @@ class ProductAdmin(admin.ModelAdmin):
         ProductImageInline,
     ]
     list_select_related = ['brand', 'category']
-    actions = [duplicate_query_sets]
+    # actions = [duplicate_query_sets]
 
     def get_formsets_with_inlines(self, request, obj=None):  # readable labels of product feature in admin.site
         for inline in self.get_inline_instances(request, obj):
@@ -266,14 +265,14 @@ class SuperCategoryAdmin(admin.ModelAdmin):
     list_display = ['id', 'name']
 
 
-class ProductFeatureAdmin(admin.ModelAdmin):
-    list_display = ['id', 'product']
-    actions = [duplicate_query_sets_1]
-
-
-class ProductImageAdmin(admin.ModelAdmin):
-    list_display = ['id', 'product']
-    actions = [duplicate_query_sets_1]
+# class ProductFeatureAdmin(admin.ModelAdmin):
+#     list_display = ['id', 'product']
+#     actions = [duplicate_query_sets_1]
+#
+#
+# class ProductImageAdmin(admin.ModelAdmin):
+#     list_display = ['id', 'product']
+#     actions = [duplicate_query_sets_1]
 
 
 admin.site.unregister(User)
@@ -292,5 +291,5 @@ admin.site.register(Order, OrderAdmin)
 admin.site.register(OrderItem, OrderItemAdmin)
 admin.site.register(Stock, StockAdmin)
 admin.site.register(CategoryFeatures)
-admin.site.register(ProductFeature, ProductFeatureAdmin)
-admin.site.register(ProductImage, ProductImageAdmin)
+# admin.site.register(ProductFeature, ProductFeatureAdmin)
+# admin.site.register(ProductImage, ProductImageAdmin)
