@@ -72,6 +72,18 @@ class ModLoginView(LoginView):
         user = form.get_user()
         login(self.request, user)
         response = HttpResponseRedirect(self.get_success_url())
+        # cookie_cart, items = json.loads(self.request.COOKIES.get('cart')), []
+        # if cookie_cart:
+        #     order, created = Order.objects.get_or_create(buyer=user.buyer, complete=False)
+        #     if not created:
+        #         items = OrderItem.objects.filter(order=order)
+        #         for item in items:
+        #             item.delete()
+        #     for item in cookie_cart.items():
+        #         OrderItem.objects.create(product=Product.objects.get(id=int(item[0][0])), order=order,
+        #                                  quantity=int(list(item[1].values())[0]))
+        # else:
+        #     response.set_cookie('flag', 1, max_age=1)
         return authorization_handler(self.request, response, user)
 
 
@@ -198,8 +210,7 @@ class UserChangeAccount(UserPassesTestMixin, UpdateView, ABC):
     def form_valid(self, form):
         user = form.save()
         login(self.request, user)
-        return HttpResponseRedirect(
-            reverse('shop:home'))
+        return HttpResponseRedirect(reverse('shop:home'))
 
 
 class CategoryView(DataMixin, ListView):
@@ -479,7 +490,6 @@ def updateItem(request):
 
 class CartView(DataMixin, TemplateView):
     template_name = 'shop/cart.html'
-    cook = None
 
     def get_context_data(self, *args, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -501,8 +511,7 @@ class CheckoutView(CartView):
             except ObjectDoesNotExist:
                 buyer = Buyer.objects.create(user=user, name=user.name, email=user.email)
             checkout_form = CheckoutForm(initial={'name': buyer.name, 'email': buyer.email,
-                                                  'tel': buyer.tel, 'address': buyer.address,
-                                                  'order': context['order']})
+                                                  'tel': buyer.tel, 'address': buyer.address})
         else:
             checkout_form = CheckoutForm()
         items, order = context['items'], context['order']
@@ -516,55 +525,47 @@ class CheckoutView(CartView):
     def post(self, request, *args, **kwargs):
         user, args = self.request.user, self.request.POST
         checkout_form = CheckoutForm(args)
-        if user.is_authenticated:
-            order = Order.objects.get(id=args['order'])
-            items = order.orderitem_set.all()
-            message, items = check_quantity_in_stock(items)
-            if checkout_form.is_valid() and not message:
-                data = checkout_form.cleaned_data
+        items, order, cartItems = get_cookies_cart(request)
+        message, items = check_quantity_in_stock(items)
+        if checkout_form.is_valid() and not message:
+            data = checkout_form.cleaned_data
+            if user.is_authenticated:
+                order, created = Order.objects.get_or_create(buyer=user.buyer, complete=False)
+                if not created:
+                    orderItems = OrderItem.objects.filter(order=order)
+                    for orderItem in orderItems:
+                        orderItem.delete()
                 user.buyer.name, user.buyer.email = data['name'], data['email']
                 user.buyer.tel, user.buyer.address = data['tel'], data['address']
                 user.buyer.save()
                 order.complete = True
                 order.save()
-                Sale.objects.create(order=order, region=data['region'],
-                                    city=data['city'], department=data['department'])
-                decreasing_stock_items(items)
-                return HttpResponseRedirect(reverse('shop:home'))
             else:
-                context = self.get_context_data()
-                cart = {}
-                if message:
-                    cart, order = correct_cart_order(items, order)
-                context.update({'checkout_form': CheckoutForm(args), 'message': message,
-                                'cartJson': json.dumps(cart)})
-                return self.render_to_response(context)
-        else:
-            items, order, cartItems = get_cookies_cart(request)
-            message, items = check_quantity_in_stock(items)
-            if checkout_form.is_valid() and not message:
-                data = checkout_form.cleaned_data
                 buyer = Buyer.objects.create(name=data['name'], email=data['email'],
                                              tel=data['tel'], address=data['address'])
                 order = Order.objects.create(buyer=buyer, complete=True)
-                orderItems = []
-                for item in items:
-                    orderItem = OrderItem.objects.create(product=Product.objects.get(id=int(item.product.id)),
-                                                         order=order, quantity=int(item.quantity))
-                    orderItems.append(orderItem)
-                items = orderItems
-                Sale.objects.create(order=order, region=data['region'],
-                                    city=data['city'], department=data['department'])
-
-                # logic of deleting items from stock and changing status of 'sold' parameter
-                decreasing_stock_items(items)
-
-                return self.render_to_response({**self.get_context_data(), 'items': [], 'order': {'get_order_total': 0,
-                                                                                                  'get_order_items': 0},
-                                                'message': _('Оплата прошла успешно'), 'cartJson': json.dumps({})})
-            else:
-                cart = {}
-                if message:
-                    cart, order = correct_cart_order(items, order)
-                return self.render_to_response({**self.get_context_data(), 'checkout_form': checkout_form,
-                                                'message': message, 'cartJson': json.dumps(cart), 'order': order})
+            orderItems = []
+            for item in items:
+                orderItem = OrderItem.objects.create(product=Product.objects.get(id=int(item.product.id)),
+                                                     order=order, quantity=int(item.quantity))
+                orderItems.append(orderItem)
+            items = orderItems
+            Sale.objects.create(order=order, region=data['region'],
+                                city=data['city'], department=data['department'])
+            decreasing_stock_items(items)
+            message = ''
+            warning = None
+            if items:
+                message = _('Оплата прошла успешно')
+                warning = ':)'
+            return self.render_to_response({**self.get_context_data(), 'items': [], 'order': {'get_order_total': 0,
+                                                                                              'get_order_items': 0},
+                                            'message': message, 'warning': warning, 'cartJson': json.dumps({})})
+        else:
+            context = self.get_context_data()
+            cart = {}
+            if message:
+                cart, order = correct_cart_order(items, order)
+            context.update({'checkout_form': CheckoutForm(args), 'message': message,
+                            'cartJson': json.dumps(cart)})
+            return self.render_to_response(context)

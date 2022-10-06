@@ -5,7 +5,9 @@
 <div class="cart">
         {% if message %}
             <div class="cart-head">
-                <p id="cart-warning">{{ warning }}</p>
+                {% if warning %}
+                    <p id="cart-warning">{{ warning }}</p>
+                {% endif %}
                 <p id="cart-message">{{ message }}</p>
                 <hr style="height:1px; background-color:rgb(220,220,220); border:none; width:98%">
             </div>
@@ -25,8 +27,8 @@
         </div>
         <div class="cart-head">
             <div class="cart-info-legend">
-                <div class="cart-info-legend-int"">{% translate "Изображение" %}</div>
-                <p class="cart-info-legend-int" style="width:200px">{% translate "Товар" %}</p>
+                <div class="cart-info-legend-int">{% translate "Изображение" %}</div>
+                <p class="cart-info-legend-product">{% translate "Товар" %}</p>
                 <div class="cart-info-legend-int">{% translate "Цена" %}</div>
                 <div class="cart-info-legend-int">{% translate "Количество" %}</div>
                 <div class="cart-info-legend-int">{% translate "Итого" %}</div>
@@ -36,7 +38,7 @@
             {% for item in items %}
                 <div class="cart-info-legend">
                     <div class="cart-info-legend-int"><img src="{{ item.product.productimage.image_1.url }}" style="width:auto; height:40px"></div>
-                    <div class="cart-info-legend-int" style="width:200px"><p style="width=200px; max-width:200px; word-wrap:break-word;">{{ item.product.name | hide_brackets }}</p></div>
+                    <p class="cart-info-legend-product">{{ item.product.name | hide_brackets }}</p>
                     <div class="cart-info-legend-int">{{ item.product.price }} {% translate "грн" %}</div>
                     <div class="cart-info-legend-int">
                         <div style="margin-top:5px">{{ item.quantity }}</div>

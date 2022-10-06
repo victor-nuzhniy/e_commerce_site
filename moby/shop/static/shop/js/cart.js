@@ -8,11 +8,7 @@ for (let i = 0; i < updateBtn.length; i++){
         basketFlag = true
         if (sold == 'False'){
             document.getElementById('product-in-cart').style.display = 'flex'
-            if(user === 'AnonymousUser'){
-                addCookieItem(productId, action)
-            }else{
-                updateUserOrder(productId, action)
-            }
+            addCookieItem(productId, action)
         }
     })
 }
@@ -86,10 +82,13 @@ function updateUserOrder(productId, action){
 }
 
 var messageDiv = document.getElementById('cart-message')
+var messageWarn = document.getElementById('cart-warning')
 
 if(messageDiv) {
     cartJson = JSON.parse(document.getElementById('cartJson').textContent)
     cart = JSON.parse(cartJson)
     document.cookie = 'cart=' + JSON.stringify(cart) + ";domain=;path=/"
-    window.setTimeout(reload, 10000)
+    if(!messageWarn){
+        window.setTimeout(reload, 10000)
+        }
 }

@@ -73,8 +73,6 @@ def check_quantity_in_stock(items):
                     quantity += x.quantity
         if quantity < item.quantity or not item.quantity:
             item.quantity = quantity
-            if isinstance(item, OrderItem):
-                item.save() if item.quantity > 0 else item.delete()
             message = _("К сожалению, в одной позиции из списка товаров произошли изменения."
                         " Пока Вы оформляли покупку, товар был приобретен другим покупателем."
                         " Приносим свои извинения.")
@@ -83,7 +81,6 @@ def check_quantity_in_stock(items):
 
 def decreasing_stock_items(items):
     product_ids = [item.product.id for item in items]
-    print(product_ids, 333)
     for item in items:
         q = Stock.objects.filter(product=item.product.id)
         quantity = item.quantity
